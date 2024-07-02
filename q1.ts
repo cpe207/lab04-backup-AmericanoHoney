@@ -1,5 +1,20 @@
-function typeChecker(a, b) {
-  /* Your code here */
+//660610757 ณัฐรดา หนูจิตร
+
+function typeChecker(a: any, b: any): string | number{
+
+  if (typeof a === typeof b && typeof a === 'string') 
+  {
+    return `I LOVE YOU`;
+  } 
+  else if (typeof a === typeof b && typeof a === 'number') 
+  {
+    return a+b;
+  }
+  else
+  {
+    return `NOT MATCHED`
+  }
+
 }
 
 //Test cases
@@ -15,3 +30,5 @@ console.log(typeChecker(a2, b2));
 console.log(typeChecker(a3, b3));
 
 module.exports = typeChecker;
+
+// npx ts-node q1.ts

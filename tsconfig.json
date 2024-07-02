@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "es2016", // output script version
+    "rootDir": "./src", // source code directory
+    "outDir": "./dist", // output directory
+    "removeComments": true, // remove comments
+    "noEmitOnError": true, // don't emit if there is an error                 /* Skip type checking all .d.ts files. */
+  }
+}
